@@ -1,17 +1,22 @@
-*{
-    padding: 10px;
-    margin: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-#heading {
+
+a{text-decoration: none;}
+
+#first {
+    width: 500px;
+    height: 200px;
     background-color: aqua;
     border: 1px solid black;
     text-align: center;
 }
 
-#paragraph {
+#second {
+    width: 500px;
+    height: 200px;
     background-color: burlywood;
     border: 1px solid black;
-    text-align: justify;
+    text-align: center;
+    padding: 100px;
+    box-sizing: border-box;
 }
