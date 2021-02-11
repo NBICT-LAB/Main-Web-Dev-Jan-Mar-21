@@ -1,5 +1,9 @@
-let js = 'amazing';
-if (js === 'amazing') alert('JavaScript is FUN!');
+$(document).ready(function () {
+    $(window).scroll(function () {
+        if (this.scrollY > 20) {
+            $('.navbar').addClass("sticky");
+        } else {
 
-7 + 11 - 4 + 23;
-console.log(7 + 11 - 4 + 23);
+        }
+    })
+});

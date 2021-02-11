@@ -17,6 +17,11 @@
     padding: 30px 0;
 }
 
+.navbar.sticky{
+    padding: 30px 0;
+    background: crimson;
+}
+
 .max-width{
     max-width: 1300px;
     margin: auto;
