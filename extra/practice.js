@@ -13,6 +13,7 @@ const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
 */
 
+/*
 const firstName = 'Sadhan';
 const job = 'Trainer';
 const birthYear = 1993;
@@ -33,3 +34,40 @@ string...');
 console.log(`This is also a
 multiline 
 string...`);
+*/
+
+/*
+
+const country = 'Bangladesh';
+let population = 160;
+const continent = 'Asia';
+
+console.log(country, population, continent);
+
+const isIsland = true;
+const language = 'Bangla';
+
+console.log(`Type of 'country' is ${typeof(country)}.`);
+
+console.log(`Type of 'population' is ${typeof(population)}.`);
+
+console.log(`Type of 'continent' is ${typeof(continent)}.`);
+
+console.log(`Type of 'isIsland' is ${typeof(isIsland)}.`);
+
+console.log(`Type of 'language' is ${typeof(language)}.`);
+
+*/
+
+const age = 17;
+
+let year;
+
+if(age >= 18){
+    console.log(`Sara is eligible for license.`);
+}else{
+    year = 18 - age;
+    console.log(`Sara is not eligible for license.`);
+}
+
+console.log(`She have to wait another ${year} year.`);
