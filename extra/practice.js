@@ -32,17 +32,13 @@ multiline \n\
 string...');
 
 console.log(`This is also a
-<<<<<<< HEAD
 multiline 
-=======
 multiline
->>>>>>> cef9b6359741cc0887bb01827f31dc69e9cb4511
 string...`);
 */
 
 /*
 
-<<<<<<< HEAD
 const country = 'Bangladesh';
 let population = 160;
 const continent = 'Asia';
@@ -76,7 +72,6 @@ if(age >= 18){
 }
 
 console.log(`She have to wait another ${year} year.`);
-=======
 const age = 15;
 
 if (age >= 18) {
@@ -125,4 +120,3 @@ const BMIJohn = massJohn / heightJohn ** 2;
 const markHigherBMI = BMIMark > BMIJohn;
 
 console.log(markHigherBMI);
->>>>>>> cef9b6359741cc0887bb01827f31dc69e9cb4511
