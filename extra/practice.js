@@ -36,6 +36,8 @@ multiline
 string...`);
 */
 
+/*
+
 const age = 15;
 
 if (age >= 18) {
@@ -56,3 +58,31 @@ if (birthYear >= 2000) {
 }
 
 console.log(century);
+
+*/
+
+/*
+const massMark = 78; // in kg
+const heightMark = 1.69; // in m
+const massJohn = 92; // in kg
+const heightJohn = 1.95; // in m
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / heightJohn ** 2;
+
+const markHigherBMI = BMIMark > BMIJohn;
+
+console.log(markHigherBMI);
+*/
+
+const massMark = 95; // in kg
+const heightMark = 1.88; // in m
+const massJohn = 85; // in kg
+const heightJohn = 1.76; // in m
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / heightJohn ** 2;
+
+const markHigherBMI = BMIMark > BMIJohn;
+
+console.log(markHigherBMI);
