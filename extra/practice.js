@@ -13,6 +13,7 @@ const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
 */
 
+/*
 const firstName = 'Sadhan';
 const job = 'Trainer';
 const birthYear = 1993;
@@ -31,5 +32,27 @@ multiline \n\
 string...');
 
 console.log(`This is also a
-multiline 
+multiline
 string...`);
+*/
+
+const age = 15;
+
+if (age >= 18) {
+    console.log('Sara can start for a driving license 🚗');
+} else {
+    yearsLeft = 18 - age;
+    console.log(`Sara is young enough. Wait another ${yearsLeft} years :)`);
+}
+
+const birthYear = 2005;
+
+let century;
+
+if (birthYear >= 2000) {
+    century = 21;
+} else {
+    century = 20;
+}
+
+console.log(century);
