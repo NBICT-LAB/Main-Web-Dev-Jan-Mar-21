@@ -59,7 +59,7 @@ console.log(`Type of 'isIsland' is ${typeof(isIsland)}.`);
 console.log(`Type of 'language' is ${typeof(language)}.`);
 
 */
-
+/*
 const age = 17;
 
 let year;
@@ -95,7 +95,7 @@ console.log(century);
 
 */
 
-/*
+
 const massMark = 78; // in kg
 const heightMark = 1.69; // in m
 const massJohn = 92; // in kg
@@ -107,8 +107,8 @@ const BMIJohn = massJohn / heightJohn ** 2;
 const markHigherBMI = BMIMark > BMIJohn;
 
 console.log(markHigherBMI);
-*/
 
+/*
 const massMark = 95; // in kg
 const heightMark = 1.88; // in m
 const massJohn = 85; // in kg
@@ -116,7 +116,17 @@ const heightJohn = 1.76; // in m
 
 const BMIMark = massMark / heightMark ** 2;
 const BMIJohn = massJohn / heightJohn ** 2;
+*/
 
-const markHigherBMI = BMIMark > BMIJohn;
+// const markHigherBMI = BMIMark > BMIJohn;
 
-console.log(markHigherBMI);
+// console.log(markHigherBMI);
+
+if(BMIMark > BMIJohn){
+    console.log(`Mark's BMI is higher than John's!`);
+}else{
+    console.log(`John's BMI is higher than Mark's!`);
+}
+
+console.log(`Mark's
+BMI ${BMIMark} is higher than John's ${BMIJohn}!`);
