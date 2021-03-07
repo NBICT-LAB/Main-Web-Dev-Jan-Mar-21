@@ -32,7 +32,7 @@ multiline \n\
 string...');
 
 console.log(`This is also a
-multiline 
+multiline
 multiline
 string...`);
 */
@@ -95,6 +95,7 @@ console.log(century);
 
 */
 
+/*
 
 const massMark = 78; // in kg
 const heightMark = 1.69; // in m
@@ -108,6 +109,8 @@ const markHigherBMI = BMIMark > BMIJohn;
 
 console.log(markHigherBMI);
 
+*/
+
 /*
 const massMark = 95; // in kg
 const heightMark = 1.88; // in m
@@ -120,10 +123,9 @@ const BMIJohn = massJohn / heightJohn ** 2;
 
 // const markHigherBMI = BMIMark > BMIJohn;
 
-<<<<<<< HEAD
+/*
 console.log(markHigherBMI);
-*/
-=======
+
 // console.log(markHigherBMI);
 
 if(BMIMark > BMIJohn){
@@ -134,4 +136,28 @@ if(BMIMark > BMIJohn){
 
 console.log(`Mark's
 BMI ${BMIMark} is higher than John's ${BMIJohn}!`);
->>>>>>> bdd913c09f01f4d416acf6f30ddb61f29a3512ea
+*/
+
+// Type conversion
+
+const inputYear = '1993';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Sadhan'));
+console.log(typeof NaN);
+console.log(String(23), 23);
+
+// Type coercion
+console.log('I am ' + 23 + ' years old.');
+console.log('I am ' + '23' + ' years old.');
+console.log('I am ' + String(23) + ' years old.');
+console.log('23' - '10' - 4);
+console.log('23' + '10' + 4);
+console.log('23' * '2');
+console.log('23' / '2');
+console.log('23' > '12');
+
+let n = '1' + 1;
+n = n - 1;
+console.log(n);
