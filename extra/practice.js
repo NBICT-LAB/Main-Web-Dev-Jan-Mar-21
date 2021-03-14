@@ -140,6 +140,8 @@ BMI ${BMIMark} is higher than John's ${BMIJohn}!`);
 
 // Type conversion
 
+/*
+
 const inputYear = '1993';
 console.log(Number(inputYear), inputYear);
 console.log(Number(inputYear) + 18);
@@ -161,3 +163,73 @@ console.log('23' > '12');
 let n = '1' + 1;
 n = n - 1;
 console.log(n);
+
+*/
+
+
+// Type Conversion
+
+/*
+
+const birthYear = '1993';
+console.log(Number(birthYear) + 18, birthYear);
+console.log(birthYear + 18);
+
+console.log(Number('Sadhan'));
+console.log(typeof (Number('Sadhan')));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+// Type Coercion
+
+console.log('I am ' + 23 + ' years old.');
+console.log('I am ' + String(23) + ' years old.');
+
+*/
+
+// 5 Falsy Values: 0, '', NaN, undefined, null
+
+/*
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Sadhan'));
+console.log(Boolean({}));
+console.log(Boolean(''));
+
+const money = 10;
+if (money) {
+    console.log(`Don't spend it all!`);
+} else {
+    console.log(`You should get a job!`);
+}
+
+let height = 0;
+if (height) {
+    console.log(`Yey, height is defined!`);
+} else {
+    console.log(`Height is not defined!`);
+}
+
+*/
+
+const age = 18;
+if (age === 18) console.log('You are adult enough! (Strict)');
+if (age === 18) console.log('You are adult enough! (Loose)');
+
+const favorite = Number(prompt('What is your favorite number?'));
+console.log(favorite);
+console.log(typeof favorite);
+
+if (favorite == 23) console.log('23 is an amazing number!'); // '23' == 23
+
+if (favorite === 23) {
+    console.log('23 is an amazing number!'); // '23' == 23
+} else if (favorite === 7) {
+    console.log('7 is also an amazing number.');
+} else {
+    console.log('The number is not 24 or 7.');
+}
+
+if (favorite !== 23) console.log('Why not 23?');
