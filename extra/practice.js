@@ -238,6 +238,8 @@ if (favorite !== 23) console.log('Why not 23?');
 
 */
 
+/*
+
 const hasDriversLicense = true;
 const hasGoodVision = true;
 
@@ -260,3 +262,22 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 } else {
     console.log('Someone else should drive...');
 }
+
+*/
+
+
+console.log("Hello World! I am learning JavaScript.");
+console.log("I am " + String(23)  + " years old");
+console.log(String(23)); // Type Coercion
+
+console.log('23', 23);
+console.log(Number('23') + 23);
+console.log('23' - '10' - 4);
+
+console.log(Number('NBICT'));
+
+console.log(typeof(true));
+console.log(typeof NaN);
+
+console.log('23' + '10' + 4);
+console.log('23' * '2');
