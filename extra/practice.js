@@ -326,6 +326,7 @@ if (password === 123) {
 
 */
 
+/*
 
 let dolphinFirstScore = Number(prompt('Enter Dolphins first score:'));
 
@@ -358,3 +359,32 @@ if ((dolphinAverageScore >= 100) && (dolphinAverageScore > koalaAverageScore)) {
     console.log(`No team wins the trophy.`);
 }
 
+*/
+
+let dolphinFirstScore = Number(prompt('Enter Dolphins first score:'));
+
+let dolphinSecondScore = Number(prompt('Enter Dolphins second score:'));
+
+let dolphinThirdScore = Number(prompt('Enter Dolphins Third score:'));
+
+let koalaFirstScore = Number(prompt('Enter Koalas first score:'));
+
+let koalaSecondScore = Number(prompt('Enter Koalas second score:'));
+
+let koalaThirdScore = Number(prompt('Enter Koalas Third score:'));
+
+let dolphinAverageScore = (dolphinFirstScore + dolphinSecondScore + dolphinThirdScore)/3;
+
+let koalaAverageScore = (koalaFirstScore + koalaSecondScore + koalaThirdScore)/3;
+
+console.log(`Dolphins avarege score ${dolphinAverageScore}.`);
+
+console.log(`Koalas avarege score ${koalaAverageScore}.`);
+
+if(dolphinAverageScore > koalaAverageScore){
+    console.log(`Dolphin is the winner!`);
+}else if(dolphinAverageScore < koalaAverageScore){
+    console.log(`Koala is the winner!`);
+}else{
+    console.log(`Draw!!!`);
+}
