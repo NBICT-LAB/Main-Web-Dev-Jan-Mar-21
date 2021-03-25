@@ -265,6 +265,7 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 
 */
 
+/*
 
 console.log("Hello World! I am learning JavaScript.");
 console.log("I am " + String(23)  + " years old");
@@ -281,3 +282,6 @@ console.log(typeof NaN);
 
 console.log('23' + '10' + 4);
 console.log('23' * '2');
+
+*/
+
