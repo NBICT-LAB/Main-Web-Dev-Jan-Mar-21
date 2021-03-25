@@ -285,3 +285,38 @@ console.log('23' * '2');
 
 */
 
+// console.log(Boolean(0));
+// let myName = 1;
+// console.log(myName);
+// console.log(Boolean(myName));
+
+// console.log(Boolean({}));
+// console.log(Boolean(''));
+
+/*
+
+const money = 0;
+
+if(money){
+    console.log('Do not spend it all.');
+}else{
+    console.log('You should get a job.');
+}
+
+*/
+
+// const age = 18;
+
+// if(age !== 18)console.log('You are not adult enough!');
+
+const password = Number(prompt('Enter password: '));
+
+if (password === 123) {
+    console.log('Welcome! Sadhan Verma!!');
+} else if (password === 345) {
+    console.log('Welcome! Abdul Motin!!');
+} else if (password === 678) {
+    console.log('Welcome! Md. Shafiul!!');
+} else {
+    console.log('Wrong password!!!');
+}
