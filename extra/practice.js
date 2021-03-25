@@ -309,6 +309,9 @@ if(money){
 
 // if(age !== 18)console.log('You are not adult enough!');
 
+
+/*
+
 const password = Number(prompt('Enter password: '));
 
 if (password === 123) {
@@ -320,3 +323,38 @@ if (password === 123) {
 } else {
     console.log('Wrong password!!!');
 }
+
+*/
+
+
+let dolphinFirstScore = Number(prompt('Enter Dolphins first score:'));
+
+let dolphinSecondScore = Number(prompt('Enter Dolphins second score:'));
+
+let dolphinThirdScore = Number(prompt('Enter Dolphins Third score:'));
+
+let koalaFirstScore = Number(prompt('Enter Koalas first score:'));
+
+let koalaSecondScore = Number(prompt('Enter Koalas second score:'));
+
+let koalaThirdScore = Number(prompt('Enter Koalas Third score:'));
+
+let dolphinAverageScore = (dolphinFirstScore + dolphinSecondScore + dolphinThirdScore) / 3;
+
+let koalaAverageScore = (koalaFirstScore + koalaSecondScore + koalaThirdScore) / 3;
+
+console.log(`Dolphins average score is ${dolphinAverageScore}.`);
+
+console.log(`Koalas average score is ${koalaAverageScore}.`);
+
+
+if ((dolphinAverageScore >= 100) && (dolphinAverageScore > koalaAverageScore)) {
+    console.log(`Dolphins gymnastic team is the winner.`);
+} else if ((koalaAverageScore >= 100) && (koalaAverageScore > dolphinAverageScore)) {
+    console.log(`Koalas gymnastic team is the winner.`);
+} else if ((koalaAverageScore === dolphinAverageScore) && (koalaAverageScore >= 100) && (dolphinAverageScore >= 100)) {
+    console.log(`Draw!!! They have the same average score.`);
+} else {
+    console.log(`No team wins the trophy.`);
+}
+
