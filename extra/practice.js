@@ -381,10 +381,12 @@ console.log(`Dolphins avarege score ${dolphinAverageScore}.`);
 
 console.log(`Koalas avarege score ${koalaAverageScore}.`);
 
-if(dolphinAverageScore > koalaAverageScore){
+if((dolphinAverageScore > koalaAverageScore) && (dolphinAverageScore >= 100)){
     console.log(`Dolphin is the winner!`);
-}else if(dolphinAverageScore < koalaAverageScore){
+}else if((dolphinAverageScore < koalaAverageScore) && (koalaAverageScore >= 100)){
     console.log(`Koala is the winner!`);
+}else if((dolphinAverageScore === koalaAverageScore) && (dolphinAverageScore >= 100) && (koalaAverageScore >= 100)){
+    console.log(`It is a Draw!!!`);
 }else{
-    console.log(`Draw!!!`);
+    console.log(`No one is the winner.`);
 }
