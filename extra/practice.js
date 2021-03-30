@@ -361,6 +361,8 @@ if ((dolphinAverageScore >= 100) && (dolphinAverageScore > koalaAverageScore)) {
 
 */
 
+/*
+
 let dolphinFirstScore = Number(prompt('Enter Dolphins first score:'));
 
 let dolphinSecondScore = Number(prompt('Enter Dolphins second score:'));
@@ -389,4 +391,38 @@ if((dolphinAverageScore > koalaAverageScore) && (dolphinAverageScore >= 100)){
     console.log(`It is a Draw!!!`);
 }else{
     console.log(`No one is the winner.`);
+}
+
+*/
+
+const day = 'monday';
+
+switch (day) {
+
+    case 'monday':
+        console.log(`I need to record my videos`);
+        console.log('I need to edit my videos.')
+        break;
+
+    case 'tuesday':
+        console.log(`I need to prepare the curriculum.`);
+        break;
+
+    case 'wednesday':
+    case 'thursday':
+        console.log(`I need to prepare theory.`);
+        break;
+
+    case 'friday':
+        console.log(`It is my weekend.`);
+        break;
+
+    case 'saturday':
+    case 'sunday':
+        console.log(`Taking online classes.`);
+        break;
+
+    default:
+        console.log(`It is not a valid week day.`);
+
 }
