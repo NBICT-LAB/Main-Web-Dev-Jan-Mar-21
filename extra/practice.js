@@ -395,6 +395,8 @@ if((dolphinAverageScore > koalaAverageScore) && (dolphinAverageScore >= 100)){
 
 */
 
+/*
+
 const day = 'monday';
 
 switch (day) {
@@ -426,3 +428,33 @@ switch (day) {
         console.log(`It is not a valid week day.`);
 
 }
+
+*/
+
+
+const day = prompt('Enter the day');
+
+switch(day){
+    case 'monday':
+        console.log('Take preparation for online classes.');
+        break;
+    case 'tuesday':
+        console.log('Take exam preparation.');
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log('Visiting outside.');
+        console.log('Making video tutorial.');
+        break;
+    case 'friday':
+        console.log('Hangout with friends.');
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log('Office management.');
+        console.log('Teaching offline.');
+        break;
+    default:
+        console.log('Invalid day!');
+}
+
